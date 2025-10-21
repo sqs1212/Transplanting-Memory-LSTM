@@ -16,3 +16,13 @@ The TM-LSTM framework segments input acoustic signals and processes them through
 ​​Encoder:​​ Projects the input signal into a sparse feature space using 1D convolutional layers.
 ​​Separator:​​ The core TM-LSTM module. It decouples features by leveraging shared hidden and cell states across Seg-LSTM and Mem-LSTM units.
 ​​Decoder:​​ Reconstructs the denoised signal via transposed convolutional operations and the overlap-add method.
+
+
+🚀 Quick Start
+
+1.Prepare the data:​​Organize your audio data according to the structure in config. You can use the provided scripts in scripts format the Yellow Sea dataset or your own data.
+
+2.Train the model:​​ Run the training script. Configuration can be modified in config.
+
+3.​​Use your data:Use the pre-trained model (or your trained model) to enhance an audio file
+
